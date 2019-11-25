@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-import Header from './Header'
+import Header from './Header';
+import Footer from './footer';
 
 class App extends Component {
   constructor() {
@@ -19,6 +20,7 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
+        <Footer/>
       </div>
     );
   }
